@@ -1,0 +1,5 @@
+cd gpt-flask-app
+git init
+git add .
+git commit -m "Initial GPT Flask App"
+gh repo create gpt-flask-app --public --source=. --remote=origin --push
